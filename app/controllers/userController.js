@@ -39,5 +39,3 @@ export const getAllUsers = bigPromise(async (req, res, next) => {
     data: users,
   });
 });
-
-console.log("createUser function defined:", createUser);
